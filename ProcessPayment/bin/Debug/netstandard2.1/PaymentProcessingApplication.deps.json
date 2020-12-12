@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "PaymentProcessingApplication/1.0.0": {
+        "dependencies": {
+          "PaymentProcessingLibrary": "1.0.0"
+        },
+        "runtime": {
+          "PaymentProcessingApplication.dll": {}
+        }
+      },
+      "PaymentProcessingLibrary/1.0.0": {
+        "runtime": {
+          "PaymentProcessingLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaymentProcessingApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PaymentProcessingLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
